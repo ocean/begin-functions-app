@@ -1,6 +1,5 @@
 let begin = require('@architect/functions')
 
-// TODO change defaultHTML
 let defaultHTML = `
 <!doctype html>
 <html lang=en>
@@ -9,13 +8,14 @@ let defaultHTML = `
     <title>Hi!</title>
   </head>
   <body style="font-family: sans-serif;">
-    <h1>Hello world!</h1>
+    <h1>Hello there %{name} !</h1>
   </body>
 </html>
 `
 
 function route(req, res) {
   console.log(JSON.stringify(req, null, 2))
+  let name = req.params.name ? req.params.name : "brave world";
   res({
     html: defaultHTML
   })
