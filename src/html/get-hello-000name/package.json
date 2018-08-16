@@ -1,0 +1,7 @@
+{
+  "name": "heal-d9v-get-hello-000name",
+  "dependencies": {
+    "@architect/functions": "latest",
+    "@begin-functions/data": "latest"
+  }
+}
