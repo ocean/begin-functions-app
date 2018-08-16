@@ -1,10 +1,6 @@
-#
-# Warning! Do Not Edit
-# --------------------
-# This is a generated file and will be overwritten
-#
 @app
-test-app
+heal-d9v
 
 @html
 get /
+get /hello/:name
