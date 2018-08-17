@@ -2,6 +2,12 @@
   "name": "begin-functions-app",
   "version": "1.0.1",
   "description": "Begin app",
+  "author": "Drew Robinson <drew.robinson@gmail.com>",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ocean/begin-functions-app"
+  },
   "scripts": {
     "lint": "eslint src --ignore-pattern node_modules --fix",
     "test": "NODE_ENV=testing tape test/*-test.js | tap-spec",
