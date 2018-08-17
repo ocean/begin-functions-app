@@ -2,8 +2,8 @@ let begin = require('@architect/functions')
 
 function route(req, res) {
   console.log(JSON.stringify(req, null, 2))
-  let name = req.params.name ? req.params.name : "brave world";
-  let defaultHTML = `
+  let name = (req.params.name.length > 0) ? req.params.name : "brave world"
+  let responseHtml = `
     <!doctype html>
     <html lang=en>
       <head>
@@ -17,7 +17,7 @@ function route(req, res) {
   `
 
   res({
-    html: defaultHTML
+    html: responseHtml
   })
 }
 
