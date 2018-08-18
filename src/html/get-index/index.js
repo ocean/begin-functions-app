@@ -12,7 +12,7 @@ let defaultHTML = `
   <body>
 
     <h1 class="center-text">
-      Get ready to Begin, it's a thing.
+      Get ready to Begin, it's a real thing.
     </h1>
 
     <p class="center-text">
