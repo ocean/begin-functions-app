@@ -1,0 +1,7 @@
+{
+  "name": "prayer-z7d-get-index",
+  "dependencies": {
+    "@architect/functions": "latest",
+    "@begin-functions/data": "latest"
+  }
+}
