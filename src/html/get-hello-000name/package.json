@@ -1,0 +1,7 @@
+{
+  "name": "demand-g3d-get-hello-000name",
+  "dependencies": {
+    "@architect/functions": "latest",
+    "@begin-functions/data": "latest"
+  }
+}
