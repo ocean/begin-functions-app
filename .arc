@@ -1,10 +1,6 @@
-#
-# Warning! Do Not Edit
-# --------------------
-# This is a generated file and will be overwritten
-#
 @app
-test-app
+demand-g3d
 
 @html
 get /
+get /hello/:name
