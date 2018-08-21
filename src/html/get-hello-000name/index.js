@@ -2,7 +2,12 @@ let begin = require('@architect/functions')
 
 function route(req, res) {
   console.log(JSON.stringify(req, null, 2))
-  let name = req.params.name || "you there";
+  let name = ""
+  if (req.params) {
+    name = req.params.name
+  } else {
+    name = "you there"
+  }
   let responseHTML = `
     <!doctype html>
     <html lang=en>
