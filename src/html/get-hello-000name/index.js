@@ -11,7 +11,7 @@ function route(req, res) {
         <title>Hi!</title>
       </head>
       <body style="font-family: sans-serif;">
-        <h1>Hello ${name}</h1>
+        <h1>Hello ${name}, Begin a thing.</h1>
       </body>
     </html>
   `
